@@ -1,0 +1,31 @@
+package com.bst;
+
+class BST_NODE {
+    private <T> data;
+
+    private BST_NODE left;
+    private BST_NODE right;
+
+    public BST_NODE(T data) {
+	this.data = data;
+	this.left = null;
+	this.right = null;
+
+    }
+
+}
+
+public class BST<T> {
+
+    private int count;
+    private BST_NODE<T> root;
+
+    public BST() {
+	this.count = 0;
+
+    }
+
+    public static void name() {
+
+    }
+}

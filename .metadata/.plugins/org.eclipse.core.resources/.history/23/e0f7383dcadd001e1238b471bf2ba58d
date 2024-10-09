@@ -1,0 +1,45 @@
+package com.bst;
+
+class BST_NODE<T extends Comparable<T>> {
+    private T data;
+    private BST_NODE<T> left;
+    private BST_NODE<T> right;
+
+    public BST_NODE(T data) {
+	this.data = data;
+	this.left = null;
+	this.right = null;
+    }
+
+}
+
+public class BST<T extends Comparable<T>> {
+
+    /**
+     * @return the count
+     */
+    public int getCount() {
+	return this.count;
+    }
+
+    /**
+     * @return the root
+     */
+    public BST_NODE<T> getRoot() {
+	return this.root;
+    }
+
+   
+
+    private int count;
+    private BST_NODE<T> root;
+
+    public BST() {
+	this.count = 0;
+
+    }
+
+    public static void name() {
+
+    }
+}
